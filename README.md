@@ -1,14 +1,12 @@
 # terraSwitch
 
-## Description
-
-Simple GUI to choose a terraria launcher for Windows.
+A simple GUI to choose a terraria launcher for Windows.
 
 ## Requirements
 
-python ^3.7\
-tkinter\
-pyinstaller
+python ^3.7  
+tkinter  
+pyinstaller  
 
 ## Installation
 
@@ -16,4 +14,5 @@ pyinstaller
 pyinstaller terraSwitch.pyw -F -w
 ```
 
-Rename and use .exe file generated in ./dist/
+Rename and use .exe file generated in ./dist/  
+Rename Vanilla terraria to Terraria_Vanilla.exe and tModLoader terraria to Terraria_tModLoader.exe
