@@ -10,9 +10,13 @@ pyinstaller
 
 ## Installation
 
-```cmd
-pyinstaller terraSwitch.pyw -F -w
-```
+- Rename and put into Terraria folder:
+  - Vanilla terraria -> Terraria_Vanilla.exe
+  - tModLoader terraria -> Terraria_tModLoader.exe
+- Do
 
-Rename and use .exe file generated in ./dist/  
-Rename Vanilla terraria to Terraria_Vanilla.exe and tModLoader terraria to Terraria_tModLoader.exe
+    ```cmd
+    pyinstaller terraSwitch.pyw -F -w -n Terraria
+    ```
+
+- Put Terraria.exe generated in ./dist/ to Terraria folder.
