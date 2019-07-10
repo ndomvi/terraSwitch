@@ -1,4 +1,4 @@
-terraSwitch.spec
+*.spec
 build/
 __pycache__/
 dist/
