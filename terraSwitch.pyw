@@ -8,6 +8,8 @@ window.title("terraSwitch")
 # can be used to configure window size; fine without it
 # window.geometry('360x125')
 
+# add buttons that create child process with necessary .exe
+# TODO: check whether a process is already running to avoid multiple instances of the game to be accidentally lauched
 switch_Vanilla = tkinter.Button(
     window, text="Terraria Vanilla", command=lambda: subprocess.Popen("Terraria_Vanilla.exe"), font=("Roboto", 24))
 #switch_tModLoader.grid(padx=120, pady=30)
