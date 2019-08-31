@@ -5,7 +5,6 @@ A simple GUI to choose a terraria launcher for Windows.
 ## Requirements
 
 python ^3.7  
-tkinter  
 pyinstaller  
 
 ## Installation
@@ -20,3 +19,4 @@ pyinstaller
     ```
 
 - Put Terraria.exe generated in ./dist/ to Terraria folder.
+- Launch the game as you usually do!
