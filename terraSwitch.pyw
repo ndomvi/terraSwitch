@@ -13,7 +13,7 @@ def start_Vanilla():
 
 
 def start_tModLoader():
-    Popen(PATH_TMODLOADER)
+    Popen(PATH_TMODLOADER, cwd="tModLoader")
     exit()
 
 
